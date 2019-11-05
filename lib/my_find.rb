@@ -9,7 +9,7 @@ def my_find(collection)
 =end
 def my_find(collection)
   for elmt in collection
-   return collection[elmt-1] if yield(collection[elmt-1])
+   return elmt if yield(elmt)
   end
-  nil
+  #nil
 end
