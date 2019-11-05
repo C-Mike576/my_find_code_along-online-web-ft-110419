@@ -11,5 +11,5 @@ def my_find(collection)
   for elmt in collection
    return elmt if yield(elmt)
   end
-  #nil
+  nil
 end
